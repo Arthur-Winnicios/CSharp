@@ -55,3 +55,15 @@
             set { salario = value; }
         }
     }
+    public class Diretor : Funcionario {
+
+        //Construtor classe Gerente
+        public Diretor(string nome, int idade, string cpf, double salario) : base(nome, idade, cpf, salario) {
+            //
+        }
+
+        //Sobrescrevendo o método Bonus para adicionar 1000 ao bônus
+        public override double Bonus {
+            return base.Bonus() + 1000; //Bônus padrão do Funcionario 10% sobre o salário + 1000
+        }
+    }
