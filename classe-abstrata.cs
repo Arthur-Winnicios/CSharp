@@ -51,7 +51,7 @@ public abstract class NivelNinja {
 
     public void GastarChakra(int chakra) {
         energia -= chakra;
-        Console.WriteLine($"{nome} gastou {chakra} de {energia} de energia.");
+        Console.WriteLine($"{nome} gastou {chakra} e agora possui {energia} de energia.");
         if (energia <= 0) {
             Desmaiar();
         }
