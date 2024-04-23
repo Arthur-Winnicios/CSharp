@@ -13,38 +13,38 @@ public abstract class NivelNinja {
         this.energia = energia;
     } 
 
+    // Getter para o nome 
     public string GetNome(){
         return nome;
     }
-
+    // Setter para o nome
     public void SetNome(string nome){
         this.nome = nome;
     }
-
+    // Getter para o aldeia
     public string GetAldeia(){
         return aldeia;
     }
-
+    // Setter para o aldeia
     public void SetAldeia(string aldeia){
         this.aldeia = aldeia;
     }
-
+    // Getter para o estilo
     public string GetEstilo(){
         return estilo;
     }
-
+    // Setter para o estilo
     public void SetEstilo(string estilo){
         this.estilo = estilo;
     }
-
+    // Getter para o energia
     public int GetEnergia(){
         return energia;
     }
-
+    // Setter para o nome
     public void SetEnergia(int energia){
         this.energia = energia;
     }
-
     public abstract void Jutsu();
 
     public abstract void EquipamentoNinja();
