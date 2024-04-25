@@ -1,5 +1,6 @@
 using System;
 
+
 public abstract class NivelNinja {
     private string nome;
     private string aldeia;
